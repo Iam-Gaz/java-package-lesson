@@ -8,6 +8,11 @@ public class Main {
 	fruits.add("Banana");
 	Dog myDog = new Dog();
 	myDog.bark();
+	System.out.println("Age: " + myDog.getAge());
+	myDog.setAge(-10);
+	System.out.println("Age after bad set: " + myDog.getAge());
+	myDog.setAge(5);
+	System.out.println("Age after good set: " + myDog.getAge());
 	System.out.println(fruits);
 }
 }
