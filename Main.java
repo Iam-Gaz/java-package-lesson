@@ -16,6 +16,11 @@ public class Main {
 	Puppy myPuppy = new Puppy();
 	myPuppy.bark();
 	myPuppy.showAge();
+	Dog dog1 = new Dog();
+	Dog dog2 = new Puppy();
+
+	dog1.bark();
+	dog2.bark();
 	System.out.println("Age after good set: " + myDog.getAge());
 	System.out.println(fruits);
 }
